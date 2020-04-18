@@ -1,0 +1,47 @@
+void printList(node * head);
+	Prints given linked list.
+
+node * getNode(node * head, int index);
+	Returns the node * in given index in given linked list.
+
+node * searchList(node * head, int keyData);
+	Searches the node by key data and returns the node *.
+
+int nodeCount(node * head);
+	Returns the count of nodes in given linked list.
+
+node * createNode(int data);
+	Creates a new node by given data and return the node *.
+
+void addFront(node ** head, int newData);
+	Creates a new node by given data and inserts it before head of linked list.
+
+void addAfter(node * prev, int newData);
+	Creates a new node by given data and inserts it before head of linked list.
+
+void append(node * head, int newData);
+	Creates a new node by given data and inserts it as tail node.
+
+void deleteNode(node ** head, node * element);
+	Unlinks the given element from given linked list and deletes it from memory.
+
+node * unlinkNode(node ** head, node * element);
+	Unlinks node from list and returns the node * of unlinked node.
+
+void insertFront(node ** head, node * element);
+	Inserts given element to linked list as head node.
+
+void insertAfter(node * prev, node * element);
+	Inserts given element to linked list after given prev node.
+
+void moveFront(node ** head, node * element);
+	Unlinks the given element from given linked list and inserts it back as head node.
+
+void moveAfter(node ** head, node * prev, node * element);
+	Unlinks the given element from given linked list and inserts it back after the given prev node.
+
+void sortList(node **head);
+	Sorts given linked list by ascending order.
+
+void sortListDsc(node **head);
+	Sorts given linked list by descending order.

@@ -1,0 +1,67 @@
+utilities.h (includes 21 functions and 1 macro):
+
+MACRO length(arr);
+	Returns the count of elements in given array arr.
+
+void swap(int *a, int *b);
+	Swaps the values in given adresses a and b.
+
+int max(int a, int b);
+	Returns greater one of given values a and b.
+
+int min(int a, int b);
+	Returns smaller one of given values a and b.
+
+void printArray(int arr[], int n);
+	Prints the given array. (n: size of array)
+
+int maxInArray(int arr[], int n);
+	Returns the index of greatest element in given array arr. (n: size of array)
+
+int minInArray(int arr[], int n);
+	Returns the index of smallest element in given array arr. (n: size of array)
+
+int indexOf(int arr[], int n, int element);
+	Returns the index of given element in given array arr. (n: size of array)
+
+void bubbleSort(int arr[], int n);
+	Sorts given array arr by bubble sort algorithm in ascending order. (n: size of array)
+
+void bubbleSortDsc(int arr[], int n);
+	Sorts given array arr by bubble sort algorithm in descending order. (n: size of array)
+
+void selectionSort(int arr[], int n);
+	Sorts given array arr by selection sort algorithm in ascending order. (n: size of array)
+
+void selectionSortDsc(int arr[], int n);
+	Sorts given array arr by selection sort algorithm in descending order. (n: size of array)
+
+void insertionSort(int arr[], int n);
+	Sorts given array arr by insertion sort algorithm in ascending order. (n: size of array)
+
+void insertionSortDsc(int arr[], int n);
+	Sorts given array arr by insertion sort algorithm in descending order. (n: size of array)
+
+int partition(int arr[], int l, int r);
+	Determines the pivot element in quick sort for ascending order.	(l: first index, r: last index of partition)
+
+void quickSort(int arr[], int l, int r);
+	Sorts given array arr by quick sort algorithm in ascending order. (l: first index, r: last index of array)
+
+int partitionDsc(int arr[], int l, int r);
+	Determines the pivot element in quick sort for descending order. (l: first index, r: last index of partition)
+
+void quickSortDsc(int arr[], int l, int r);
+	Sorts given array arr by quick sort algorithm in descending order. (l: first index, r: last index of array)
+
+void merge(int arr[], int l, int m, int r);
+	Helper function of merge sort.
+
+void mergeSort(int arr[], int l, int r);
+	Sorts given array arr by merge sort algorithm in ascending order. (l: first index, r: last index of array)
+
+void mergeDsc(int arr[], int l, int m, int r);
+	Helper function of merge sort.
+
+void mergeSortDsc(int arr[], int l, int r);
+	Sorts given array arr by merge sort algorithm in descending order. (l: first index, r: last index of array)
